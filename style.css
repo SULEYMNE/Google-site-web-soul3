@@ -1,0 +1,22 @@
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 250px; /* même hauteur pour les images */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.card-body {
+  flex-grow: 1;
+}
