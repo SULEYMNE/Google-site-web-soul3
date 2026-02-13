@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Blog - Mon Organisation</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-gradient sticky-top shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="index.html"><i class="bi bi-rocket"></i> Mon Organisation</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section text-white text-center py-5">
+    <div class="container">
+      <h1 class="display-3 fw-bold mb-3">Notre Blog</h1>
+      <p class="lead mb-0">Actualités, conseils et tendances de l'industrie</p>
+    </div>
+  </header>
+
+  <!-- Blog Section -->
+  <section class="py-5">
+    <div class="container">
+      <!-- Search & Filter -->
+      <div class="row mb-5">
+        <div class="col-md-8 offset-md-2">
+          <div class="input-group input-group-lg">
+            <input type="text" class="form-control" placeholder="Rechercher un article...">
+            <button class="btn btn-primary" type="button">
+              <i class="bi bi-search"></i> Rechercher
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Articles Grid -->
+      <div class="row g-4">
+        <!-- Article 1 -->
+        <div class="col-md-6 col-lg-4">
+          <article class="blog-card card border-0 shadow-sm h-100">
+            <img src="https://via.placeholder.com/400x250?text=Innovation" class="card-img-top" alt="Article">
+            <div class="card-body">
+              <div class="article-meta mb-2">
+                <span class="badge bg-primary me-2">Innovation</span>
+                <span class="text-muted small">13 Février 2026</span>
+              </div>
+              <h5 class="card-title fw-bold">Les Tendances Tech de 2026</h5>
+              <p class="card-text text-muted">Découvrez les technologies qui façonneront l'année: IA, Cloud, et bien plus...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Par Sophie Martin</small>
+                <a href="#" class="btn btn-sm btn-outline-primary">Lire plus</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Article 2 -->
+        <div class="col-md-6 col-lg-4">
+          <article class="blog-card card border-0 shadow-sm h-100">
+            <img src="https://via.placeholder.com/400x250?text=Digital" class="card-img-top" alt="Article">
+            <div class="card-body">
+              <div class="article-meta mb-2">
+                <span class="badge bg-success me-2">Transformation</span>
+                <span class="text-muted small">10 Février 2026</span>
+              </div>
+              <h5 class="card-title fw-bold">Réussir sa Transformation Digitale</h5>
+              <p class="card-text text-muted">Guide complet pour moderniser vos processus et augmenter votre productivité...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Par Marc Lefevre</small>
+                <a href="#" class="btn btn-sm btn-outline-primary">Lire plus</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Article 3 -->
+        <div class="col-md-6 col-lg-4">
+          <article class="blog-card card border-0 shadow-sm h-100">
+            <img src="https://via.placeholder.com/400x250?text=Security" class="card-img-top" alt="Article">
+            <div class="card-body">
+              <div class="article-meta mb-2">
+                <span class="badge bg-danger me-2">Sécurité</span>
+                <span class="text-muted small">8 Février 2026</span>
+              </div>
+              <h5 class="card-title fw-bold">Cybersécurité: Bonnes Pratiques 2026</h5>
+              <p class="card-text text-muted">Protégez votre entreprise contre les menaces cyber avec nos recommandations...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Par Luc Bernard</small>
+                <a href="#" class="btn btn-sm btn-outline-primary">Lire plus</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Article 4 -->
+        <div class="col-md-6 col-lg-4">
+          <article class="blog-card card border-0 shadow-sm h-100">
+            <img src="https://via.placeholder.com/400x250?text=Analytics" class="card-img-top" alt="Article">
+            <div class="card-body">
+              <div class="article-meta mb-2">
+                <span class="badge bg-info me-2">Data</span>
+                <span class="text-muted small">5 Février 2026</span>
+              </div>
+              <h5 class="card-title fw-bold">Exploiter vos Données pour Croître</h5>
+              <p class="card-text text-muted">Comment utiliser l'analytics pour prendre de meilleures décisions commerciales...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Par Valérie Mercier</small>
+                <a href="#" class="btn btn-sm btn-outline-primary">Lire plus</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Article 5 -->
+        <div class="col-md-6 col-lg-4">
+          <article class="blog-card card border-0 shadow-sm h-100">
+            <img src="https://via.placeholder.com/400x250?text=Team" class="card-img-top" alt="Article">
+            <div class="card-body">
+              <div class="article-meta mb-2">
+                <span class="badge bg-warning text-dark me-2">Culture</span>
+                <span class="text-muted small">2 Février 2026</span>
+              </div>
+              <h5 class="card-title fw-bold">Construire une Équipe Performante</h5>
+              <p class="card-text text-muted">Les secrets pour recruter, motiver et fidéliser les meilleurs talents...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Par Isabelle Rousseau</small>
+                <a href="#" class="btn btn-sm btn-outline-primary">Lire plus</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Article 6 -->
+        <div class="col-md-6 col-lg-4">
+          <article class="blog-card card border-0 shadow-sm h-100">
+            <img src="https://via.placeholder.com/400x250?text=Strategy" class="card-img-top" alt="Article">
+            <div class="card-body">
+              <div class="article-meta mb-2">
+                <span class="badge bg-secondary me-2">Stratégie</span>
+                <span class="text-muted small">30 Janvier 2026</span>
+              </div>
+              <h5 class="card-title fw-bold">Planifier sa Croissance Stratégique</h5>
+              <p class="card-text text-muted">Étapes clés pour définir et atteindre vos objectifs de croissance long terme...</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-muted">Par Sophie Martin</small>
+                <a href="#" class="btn btn-sm btn-outline-primary">Lire plus</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Pagination -->
+      <nav class="mt-5">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link" href="#">Précédent</a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Suivant</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <h2 class="text-center fw-bold mb-3">Abonnez-vous à Notre Newsletter</h2>
+          <p class="text-center text-muted mb-4">Recevez nos derniers articles et actualités directement dans votre boîte mail</p>
+          <form class="d-flex gap-2">
+            <input type="email" class="form-control form-control-lg" placeholder="Votre email" required>
+            <button type="submit" class="btn btn-primary btn-lg fw-bold">S'abonner</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col-md-4">
+          <h6 class="fw-bold">Liens rapides</h6>
+          <ul class="list-unstyled small">
+            <li><a href="index.html" class="text-decoration-none text-white-50">Accueil</a></li>
+            <li><a href="blog.html" class="text-decoration-none text-white-50">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6 class="fw-bold">Contact</h6>
+          <p class="small text-white-50">📧 contact@organisation.fr<br>📞 +33 1 23 45 67 89</p>
+        </div>
+        <div class="col-md-4">
+          <h6 class="fw-bold">Réseaux sociaux</h6>
+          <a href="#" class="text-white-50 me-2"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white-50 me-2"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white-50"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+      <hr class="bg-white-50">
+      <p class="small mb-0">&copy; 2026 Mon Organisation - Tous droits réservés</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
